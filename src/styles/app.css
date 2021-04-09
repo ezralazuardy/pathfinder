@@ -415,3 +415,15 @@ a:hover {
 .overlays a:hover {
     color: #b085f5;
 }
+.container {
+    padding: 40px;
+}
+h1 {
+    font-weight: 800;
+    font-size: 1.8rem;
+    margin-bottom: 8px;
+}
+p.description {
+    font-weight: 600;
+    font-size: 1rem;
+}
