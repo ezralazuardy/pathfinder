@@ -1,0 +1,24 @@
+import * as React from "react"
+
+const Status = () => (
+    <>
+        <div id="status" className="panel">
+            <p>
+                Please run a MST algorithm first to see the
+                <br />
+                program status
+            </p>
+        </div>
+        <div id="status-hide" className="panel-hide">
+            <img
+                src="./arrow_white_right.png"
+                alt="&gt;"
+                title="show/hide status panel"
+                className="rotateRight unselectable"
+                unselectable="on"
+            />
+        </div>
+    </>
+)
+
+export default Status

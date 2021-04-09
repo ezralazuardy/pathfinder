@@ -1,0 +1,417 @@
+@charset "utf-8";
+html,
+body,
+*::-webkit-scrollbar {
+    overflow: hidden;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    width: 100%;
+}
+html,
+body,
+p {
+    margin: 0;
+    padding: 0;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+    display: inline-block;
+}
+u {
+    text-decoration: underline;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+img {
+    display: block;
+}
+ul,
+li {
+    padding: 0;
+    margin: 0;
+}
+form {
+    margin: 0;
+    padding: 0;
+}
+input {
+    border: none;
+    outline: none;
+    margin: 0;
+}
+html {
+    overflow-y: scroll;
+}
+body {
+    background: #eee;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 13px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+#top-bar {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    background-color: #673ab7;
+    color: #fff;
+}
+#loading-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: none;
+}
+#loading-message {
+    display: block;
+    width: 200px;
+    height: 120px;
+    margin-left: -100px;
+    margin-top: -60px;
+    text-align: center;
+}
+#loading-message img {
+    height: 50px;
+    margin: auto;
+    margin-top: 20px;
+}
+#home {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 20px;
+    padding-top: 10px;
+}
+#title {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+}
+.url {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 20px;
+    padding-top: 10px;
+}
+.links {
+    float: right;
+    position: relative;
+    margin-left: 10px;
+    padding: 1px 5px;
+    color: #fff;
+    text-align: center;
+    font-size: 13px;
+    cursor: pointer;
+    background-color: green;
+}
+.lecture-actions {
+    position: relative;
+    margin-left: 10px;
+    padding: 1px 5px;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: green;
+}
+.slide-actions {
+    position: relative;
+    padding: 1px 5px;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: green;
+}
+#fb-login {
+    float: right;
+    background: #516eab;
+    padding: 11px 15px;
+    font-size: 14px;
+}
+.right-links {
+    float: right;
+    position: relative;
+    margin-left: 7px;
+    padding: 11px 7px;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+}
+#main {
+    position: relative;
+    padding: 30px 30px 10px 10px;
+    overflow: auto;
+}
+#bottom-bar {
+    padding: 12px 30px;
+    background: #673ab7;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: right;
+}
+#bottom-bar a {
+    padding-left: 15px;
+    cursor: pointer;
+}
+#dark-overlay {
+    display: none;
+    background: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1002;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.overlays {
+    display: none;
+    background: #eee;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1003;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+#overlay {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+#about {
+    height: 620px;
+    width: 620px;
+    margin: auto;
+}
+#team {
+    height: 550px;
+    width: 650px;
+    margin-left: -325px;
+    margin-top: -295px;
+}
+.overlays .close-overlay {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+}
+.close-overlay {
+    margin-top: 4px;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #fff;
+}
+.overlays h4 {
+    color: #fff;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 20px;
+    padding: 15px 20px;
+}
+.overlays .content {
+    padding: 10px 20px 20px;
+}
+.overlays p {
+    padding-top: 10px;
+    font-size: 14px;
+}
+#custom-alert {
+    width: 300px;
+    margin-left: -150px;
+    text-align: center;
+    padding: 10px 0;
+}
+@media (min-width: 320px) {
+    #top-bar {
+        padding: 0 5px;
+    }
+    #topleft {
+        min-height: 200px;
+        max-height: 200px;
+    }
+}
+@media (min-width: 480px) {
+    #top-bar {
+        padding: 0 5px;
+    }
+    #bottom-bar {
+        padding: 12px 50px;
+    }
+    #main {
+        padding: 50px 50px 30px 30px;
+    }
+    #topleft {
+        min-height: 120px;
+        max-height: 120px;
+    }
+}
+@media (min-width: 768px) {
+    #top-bar {
+        padding: 0 40px;
+    }
+    #bottom-bar {
+        padding: 12px 60px;
+    }
+    #main {
+        padding: 60px 60px 40px 40px;
+    }
+    #topleft {
+        min-height: 100px;
+        max-height: 100px;
+    }
+}
+.execAction {
+    padding: 5px 8px;
+}
+.err {
+    padding: 5px 0px;
+}
+#actions-extras input {
+    width: 35px;
+    padding: 5px 8px 7px;
+}
+.draw {
+    bottom: 173px;
+}
+.random {
+    bottom: 146px;
+}
+.examples {
+    bottom: 119px;
+}
+.kruskals {
+    bottom: 92px;
+}
+.prims {
+    bottom: 65px;
+}
+#status,
+#status-hide,
+#codetrace,
+#codetrace-hide,
+#actions,
+#actions-hide,
+#hide-popup,
+#about h4,
+#actions-toast,
+.execAction {
+    background-color: #673ab7;
+}
+#progress-bar {
+    width: 100%;
+    background-color: #d0d0d0;
+}
+#status,
+#codetrace {
+    width: 430px;
+}
+#actions {
+    height: 118px;
+    width: 0px;
+}
+#actions-hide {
+    padding-top: 51px;
+    padding-bottom: 51px;
+}
+#code1 {
+    margin-top: 8px;
+}
+#speed-input-handle {
+    left: 72.2222%;
+}
+#speed-input-handle:hover {
+    cursor: pointer;
+}
+#progress-bar-handle {
+    left: 100%;
+}
+#codetrace-placeholder {
+    margin-top: 6px;
+}
+#actions-extras .draw {
+    left: 193px;
+}
+#actions-extras .draw-err,
+.kruskals.action-menu-pullout .kruskals-err,
+.prims.action-menu-pullout .prims-input,
+.prims.action-menu-pullout .prims-err {
+    float: left;
+}
+.examples.action-menu-pullout {
+    left: 193px;
+    display: none;
+}
+.execAction {
+    float: left;
+    color: white;
+}
+.kruskals.action-menu-pullout,
+.prims.action-menu-pullout {
+    left: 193px;
+}
+#drawgraph circle {
+    fill: rgb(238, 238, 238);
+}
+.unselectable {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+#actions-toast {
+    position: absolute;
+    width: 250px;
+    left: 43px;
+    bottom: 88px;
+    padding: 10px;
+    color: #fff;
+}
+.nav-menu {
+    display: flex;
+    float: right;
+    font-size: 1rem;
+}
+.nav-menu a {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    margin-left: 24px;
+    color: #fff;
+    font-weight: 600;
+}
+.nav-menu a span {
+    padding-top: 3px;
+}
+.nav-menu a svg {
+    width: 22px;
+    margin-right: 8px;
+}
+a {
+    transition: 0.4s;
+}
+a:hover {
+    color: #d1c4e9;
+}
+.overlays a {
+    color: #673ab7;
+}
+.overlays a:hover {
+    color: #b085f5;
+}
