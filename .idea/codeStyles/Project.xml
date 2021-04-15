@@ -35,6 +35,7 @@
     <codeStyleSettings language="JavaScript">
       <option name="SOFT_MARGINS" value="80" />
       <indentOptions>
+        <option name="USE_TAB_CHARACTER" value="true" />
         <option name="SMART_TABS" value="true" />
       </indentOptions>
     </codeStyleSettings>

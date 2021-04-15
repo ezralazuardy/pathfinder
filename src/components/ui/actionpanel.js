@@ -30,7 +30,7 @@ const ActionPanel = () => (
         </div>
         <div id={"actions-hide"} className={"panel-hide"}>
             <img
-                src={"./arrow_white_right.png"}
+                src={"./img/arrow_white_right.webp"}
                 alt={"&gt;"}
                 title={"show/hide actions panel"}
                 className={"rotateRight unselectable"}

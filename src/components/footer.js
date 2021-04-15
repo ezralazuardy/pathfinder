@@ -6,7 +6,7 @@ const Footer = () => (
     <footer>
         <MediaControl />
         <div id={"bottom-bar"}>
-            <a id={"trigger-about"} title={"Information about this application"} href={() => false}>
+            <a id={"trigger-about"} title={"Information about this application"} href={"#about"}>
                 About Application
             </a>
         </div>

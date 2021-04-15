@@ -32,7 +32,7 @@ const CodeTracePanel = () => (
         </div>
         <div id={"codetrace-hide"} className={"panel-hide"}>
             <img
-                src={"./arrow_white_right.png"}
+                src={"./img/arrow_white_right.webp"}
                 alt={"&gt;"}
                 title={"show/hide codetrace panel"}
                 className={"rotateRight unselectable"}

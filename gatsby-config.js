@@ -9,6 +9,7 @@ module.exports = {
         `gatsby-plugin-image`,
         `gatsby-transformer-sharp`,
         `gatsby-plugin-sharp`,
+        `gatsby-plugin-gatsby-cloud`,
         {
             resolve: `gatsby-source-filesystem`,
             options: {
@@ -27,7 +28,6 @@ module.exports = {
                 display: `minimal-ui`,
                 icon: `src/images/favicon.png`
             }
-        },
-        `gatsby-plugin-gatsby-cloud`
+        }
     ]
 }

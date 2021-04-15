@@ -1,22 +1,21 @@
 import { withPrefix } from "gatsby-link"
 
 import "./src/styles/pathfinder.min.css"
-import "./src/styles/app.css"
 
-const addScript = url => {
-    const script = document.createElement("script")
-    script.src = url
-    script.async = false
-    document.body.appendChild(script)
-}
+const scripts = [
+	"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js",
+	"https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js",
+	withPrefix("js/graph.min.js"),
+	withPrefix("js/pathfinder.min.js")
+]
 
 export const onClientEntry = () => {
-    window.onload = () => {
-        addScript(withPrefix("jquery.min.js"))
-        addScript(withPrefix("jquery-ui.min.js"))
-        addScript(withPrefix("d3.min.js"))
-        addScript(withPrefix("pathfinder.min.js"))
-        addScript(withPrefix("overlay.js"))
-        addScript(withPrefix("app.js"))
-    }
+	window.onload = () => {
+		scripts.forEach(function(url) {
+			let script = document.createElement("script")
+			script.src = url
+			script.async = false
+			document.body.appendChild(script)
+		})
+	}
 }

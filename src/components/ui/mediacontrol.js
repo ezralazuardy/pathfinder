@@ -19,7 +19,7 @@ const MediaControl = () => (
                 title={"go to beginning"}
             >
                 <img
-                    src={"./goToBeginning.png"}
+                    src={"./img/goToBeginning.webp"}
                     alt={"go to beginning"}
                 />
             </span>
@@ -28,14 +28,14 @@ const MediaControl = () => (
                 className={"media-control-button"}
                 title={"step backward"}
             >
-                <img src={"./prevFrame.png"} alt={"previous frame"} />
+                <img src={"./img/prevFrame.webp"} alt={"previous frame"} />
             </span>
             <span
                 id={"pause"}
                 className={"media-control-button"}
                 title={"pause"}
             >
-                <img src={"./pause.png"} alt={"pause"} />
+                <img src={"./img/pause.webp"} alt={"pause"} />
             </span>
             <span
                 id={"play"}
@@ -43,7 +43,7 @@ const MediaControl = () => (
                 title={"play"}
             >
                 <img
-                    src={"./replay.png"}
+                    src={"./img/replay.webp"}
                     alt={"replay"}
                     title={"replay"}
                 />
@@ -53,14 +53,14 @@ const MediaControl = () => (
                 className={"media-control-button"}
                 title={"step forward"}
             >
-                <img src={"./nextFrame.png"} alt={"next frame"} />
+                <img src={"./img/nextFrame.webp"} alt={"next frame"} />
             </span>
             <span
                 id={"go-to-end"}
                 className={"media-control-button"}
                 title={"go to end"}
             >
-                <img src={"./goToEnd.png"} alt={"go to end"} />
+                <img src={"./img/goToEnd.webp"} alt={"go to end"} />
             </span>
             <div
                 id={"progress-bar"}
