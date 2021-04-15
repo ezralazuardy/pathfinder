@@ -1,11 +1,12 @@
 import * as React from "react"
-import MediaControls from "./ui/mediacontrols"
+
+import MediaControl from "./ui/mediacontrol"
 
 const Footer = () => (
     <footer>
-        <MediaControls />
-        <div id="bottom-bar">
-            <a id="trigger-about" title="Information about this application">
+        <MediaControl />
+        <div id={"bottom-bar"}>
+            <a id={"trigger-about"} title={"Information about this application"} href={() => false}>
                 About Application
             </a>
         </div>

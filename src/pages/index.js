@@ -1,25 +1,25 @@
 import * as React from "react"
 
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import Overlays from "../components/overlays"
 import Dialogs from "../components/dialogs"
 import Footer from "../components/footer"
 import Graph from "../components/ui/graph"
-import Actions from "../components/ui/actions"
+import ActionPanel from "../components/ui/actionpanel"
 import ActionInfo from "../components/ui/actioninfo"
-import Status from "../components/ui/status"
-import CodeTrace from "../components/ui/codetrace"
+import StatusPanel from "../components/ui/statuspanel"
+import CodeTracePanel from "../components/ui/codetracepanel"
 
 const IndexPage = () => (
     <Layout>
-        <SEO />
+        <Seo />
         <Overlays />
         <Graph />
-        <Actions />
+        <ActionPanel />
         <ActionInfo />
-        <Status />
-        <CodeTrace />
+        <StatusPanel />
+        <CodeTracePanel />
         <Dialogs />
         <Footer />
     </Layout>
