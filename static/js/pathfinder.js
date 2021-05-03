@@ -3966,15 +3966,19 @@ function GraphVisu(t, e, r, n, i, a) {
 				break
 			case 13:
 				if (V && !1 === g) {
-					for (; !((r = prompt("Enter new weight: (<= 99)")) <= 99);)
+					for (; ;) {
+						r = prompt("Enter new weight: (<= 99)");
+						if (r <= 99) break;
+					}
 					var e = h.indexOf(V)
 					h[e].weight = r
 				} else if (_ && !1 === x) {
 					for (; ;) {
-						var r
-						if ((r = prompt("Enter new weight: (<= 99)")) <= 99) break
+						r = prompt("Enter new weight: (<= 99)");
+						if (r <= 99) break;
 					}
-					e = f.indexOf(_), f[e].weight = r
+					e = f.indexOf(_)
+					f[e].weight = r
 				}
 				l()
 		}
@@ -5371,14 +5375,13 @@ var MST = function() {
 		this.getGraphWidget = function() {
 			return e
 		}, fixJSON = function() {
-			for (var t in a = 0, r) a++
-			for (var t in n)
+			for (var t in a = 0, r) a++;
 			var e = []
-			for (t in n) e.push(new ObjectTriple(parseInt(n[t].w), parseInt(n[t].u), parseInt(n[t].v)))
+			for (t in n) e.push(new ObjectTriple(parseInt(n[t].w), parseInt(n[t].u), parseInt(n[t].v)));
 			e.sort(ObjectTriple.compare)
-			for (var o = 0; o < e.length; o++) n[o].w = e[o].getFirst(), n[o].u = e[o].getSecond(), n[o].v = e[o].getThird()
-			for (var t in r) i[t] = Array()
-			for (var t in n) i[n[t].u].push(new ObjectTriple(n[t].v, n[t].w, t)), i[n[t].v].push(new ObjectTriple(n[t].u, n[t].w, t))
+			for (var o = 0; o < e.length; o++) n[o].w = e[o].getFirst(), n[o].u = e[o].getSecond(), n[o].v = e[o].getThird();
+			for (var t in r) i[t] = Array();
+			for (var t in n) i[n[t].u].push(new ObjectTriple(n[t].v, n[t].w, t)), i[n[t].v].push(new ObjectTriple(n[t].u, n[t].w, t));
 		}, takeJSON = function(t) {
 			null != t && (t = JSON.parse(t), r = t.vl, n = t.el, fixJSON())
 		}, statusChecking = function() {
