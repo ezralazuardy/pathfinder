@@ -2,7 +2,7 @@
 
 ## Supported Versions
 
-Versions that currently being supported with security updates.
+Project versions that are currently being supported with security updates.
 
 | Version | Supported          |
 | ------- | ------------------ |
@@ -10,4 +10,4 @@ Versions that currently being supported with security updates.
 
 ## Reporting a Vulnerability
 
-If you found any kind of vulnerability in pathfinder, please make a new [issue](https://github.com/ezralazuardy/pathfinder/issues) with **vulnerability** label.
+If you found any kind of vulnerability in Pathfinder, please make a new [issue](https://github.com/ezralazuardy/pathfinder/issues) with **vulnerability** label.
