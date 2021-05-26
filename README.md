@@ -19,6 +19,10 @@ A simple, no-nonsense minimum spanning tree pathfinding algorithm visualizer web
 
 Open the application at https://pathfinder.ezralazuardy.com
 
+#### Flavors
+If javascript isn't your fluent language, check out the other pathfinder flavors:
+- [Pathfinder PHP](https://github.com/ezralazuardy/pathfinder-php)
+
 #### Inspired by
 - [VisuAlgo](https://visualgo.net)
 - [clementmihailescu/Pathfinding-Visualizer](https://github.com/clementmihailescu/Pathfinding-Visualizer)
