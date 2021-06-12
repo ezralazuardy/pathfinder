@@ -10,7 +10,7 @@ pull_request_rules:
         method: merge
       comment:
         message: ✔️ Automatic merge on pull request approval
-  - name: 📦 Automatic merge on @dependabot pull request (low priority)
+  - name: 📦 Automatic merge on @dependabot pull request
     conditions:
       - author~=^dependabot(|-preview)\[bot\]$
       - label=dependencies
@@ -22,4 +22,4 @@ pull_request_rules:
         method: merge
         strict: smart
       comment:
-        message: 📦 Automatic merge on @dependabot pull request (low priority)
+        message: 📦 Automatic merge on @dependabot pull request
