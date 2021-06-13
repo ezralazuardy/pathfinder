@@ -1,17 +1,21 @@
 <a href="https://pathfinder.ezralazuardy.com/">
-  <img src="https://therealsujitk-vercel-badge.vercel.app/?app=pathfinder-ezralazuardy" alt="Deployment" target="_blank" rel="noopener noreferrer">
+  <img src="https://therealsujitk-vercel-badge.vercel.app/?app=pathfinder-ezralazuardy" alt="Deployment">
 </a>
 
 <a href="https://github.com/ezralazuardy/pathfinder/actions/workflows/codeql-analysis.yml">
-  <img src="https://img.shields.io/github/workflow/status/ezralazuardy/pathfinder/CodeQL?label=security" alt="Security" target="_blank" rel="noopener noreferrer">
+  <img src="https://img.shields.io/github/workflow/status/ezralazuardy/pathfinder/CodeQL?label=security" alt="Security">
 </a>
 
 <a href="https://github.com/ezralazuardy/pathfinder/releases">
-  <img src="https://img.shields.io/github/v/release/ezralazuardy/pathfinder" alt="Releases" target="_blank" rel="noopener noreferrer">
+  <img src="https://img.shields.io/github/v/release/ezralazuardy/pathfinder" alt="Releases">
 </a>
 
 <a href="https://github.com/ezralazuardy/pathfinder/blob/master/LICENSE">
-  <img src="https://img.shields.io/github/license/ezralazuardy/pathfinder" alt="License" target="_blank" rel="noopener noreferrer">
+  <img src="https://img.shields.io/github/license/ezralazuardy/pathfinder" alt="License">
+</a>
+
+<a href="https://mergify.io">
+  <img src="https://img.shields.io/endpoint.svg?url=https://gh.mergify.io/badges/ezralazuardy/pathfinder" alt="Mergify">
 </a>
 
 # pathfinder
