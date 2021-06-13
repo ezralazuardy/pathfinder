@@ -1,5 +1,5 @@
 <a href="https://pathfinder.ezralazuardy.com/">
-  <img src="https://therealsujitk-vercel-badge.vercel.app/?app=0e4365" alt="Deployment" target="_blank" rel="noopener noreferrer">
+  <img src="https://therealsujitk-vercel-badge.vercel.app/?app=pathfinder-ezralazuardy" alt="Deployment" target="_blank" rel="noopener noreferrer">
 </a>
 
 <a href="https://github.com/ezralazuardy/pathfinder/actions/workflows/codeql-analysis.yml">
