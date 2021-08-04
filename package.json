@@ -7,7 +7,7 @@
   "dependencies": {
     "gatsby": "^3.10.2",
     "gatsby-link": "^3.8.0",
-    "gatsby-plugin-gatsby-cloud": "^2.10.1",
+    "gatsby-plugin-gatsby-cloud": "^2.11.0",
     "gatsby-plugin-image": "^1.10.1",
     "gatsby-plugin-manifest": "^3.11.0",
     "gatsby-plugin-offline": "^4.10.0",
